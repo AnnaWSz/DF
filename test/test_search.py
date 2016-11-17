@@ -1,23 +1,20 @@
 import pytest
 
-from fixture.application import Application
 from model.search import Search
+import string
+import random
 
 
-@pytest.fixture
-def app(request):
-    fixture = Application()
-    request.addfinalizer(fixture.destroy)
-    return fixture
+def random_phrase():
+    symbols = string.ascii_letters + string.digits + string.punctuation + " " * 2
+    return "".join([random.choice(symbols) for i in range(10)])
 
-def test_search_box(app):
-    app.search.enter_search_phrase(Search(phrase="eur"))
+
+testdata = [Search(phrase = "")] + [Search(phrase= "eur")] + [Search(phrase = random_phrase()) for i in range (5)]
+
+
+@pytest.mark.parametrize("search", testdata, ids  =[repr(x) for x in testdata])
+def test_search_box(app, search):
+    app.search.enter_search_phrase(search)
     #app.search.open_first_return_result()
 
-def test_empty_search(app):
-    app.search.enter_search_phrase(Search(phrase=""))
-    #app.search.open_first_return_result()
-
-
-#def test_empty_search(app):
-    #app.search.enter_search_phrase(Search(phrase=random_phrase()))

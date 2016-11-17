@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dee659e-8e26-49ee-9355-0b890f97a426" name="Default" comment="" />
+    <list default="true" id="0dee659e-8e26-49ee-9355-0b890f97a426" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/search.py" afterPath="$PROJECT_DIR$/fixture/search.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_search.py" afterPath="$PROJECT_DIR$/test/test_search.py" />
+    </list>
     <ignored path="DF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +39,8 @@
       <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -45,8 +49,8 @@
       <file leaf-file-name="search.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+            <state relative-caret-position="792">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -54,14 +58,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_search.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_search.py">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="330">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_all_links.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_all_links.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,10 +112,13 @@
         <option value="$PROJECT_DIR$/test_all_links.py" />
         <option value="$PROJECT_DIR$/test_search.py" />
         <option value="$PROJECT_DIR$/model/search.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/broken links.py" />
+        <option value="$PROJECT_DIR$/test/conftest.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/fixture/search.py" />
         <option value="$PROJECT_DIR$/test/test_search.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/test/test_all_links.py" />
       </list>
     </option>
   </component>
@@ -124,7 +153,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,7 +216,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,27 +226,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wyszoma\Documents\GitHub\DF" />
       <recent name="C:\Users\wyszoma\Documents\GitHub\DF\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_search_box">
-    <configuration default="false" name="test_search_box" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DF" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_search_box.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test in test_search.py">
     <configuration default="false" name="py.test in test_search_box" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,6 +315,30 @@
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/test/test_search.py" />
       <option name="keywords" value="test_empty_search" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_random_search" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DF" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test/test_search.py" />
+      <option name="keywords" value="test_random_search" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
@@ -442,19 +479,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_search_box" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_search_box" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_search.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.application" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_empty_search" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_search_box" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_search.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.application" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_empty_search" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_random_search" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_search_box" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_empty_search" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_search.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python.application" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_search_box" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_search.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_search_box" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_random_search" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_empty_search" />
+        <item index="4" class="java.lang.String" itemvalue="Python.application" />
       </list>
     </recent_temporary>
   </component>
@@ -475,34 +512,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_empty_search - 2016.11.16 at 12h 52m 40s.xml">
-      <configuration name="py.test in test_empty_search" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_search_box - 2016.11.16 at 12h 01m 21s.xml">
-      <configuration name="py.test in test_search_box" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_search_box - 2016.11.16 at 12h 03m 27s.xml">
-      <configuration name="py.test in test_search_box" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_search_box - 2016.11.16 at 12h 06m 03s.xml">
-      <configuration name="py.test in test_search_box" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_search_box - 2016.11.16 at 12h 33m 42s.xml">
-      <configuration name="py.test in test_search_box" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_search_box - 2016.11.16 at 12h 35m 35s.xml">
-      <configuration name="py.test in test_search_box" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_search_box - 2016.11.16 at 12h 45m 35s.xml">
-      <configuration name="py.test in test_search_box" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_test_search_box - 2016.11.16 at 12h 53m 03s.xml">
+    <history-entry file="py_test_in_test_search_box - 2016.11.16 at 14h 57m 53s.xml">
       <configuration name="py.test in test_search_box" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_search_py - 2016.11.16 at 12h 49m 37s.xml">
       <configuration name="py.test in test_search.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_search_py - 2016.11.16 at 12h 50m 38s.xml">
+      <configuration name="py.test in test_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_search_py - 2016.11.16 at 15h 29m 08s.xml">
+      <configuration name="py.test in test_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_search_py - 2016.11.16 at 15h 44m 41s.xml">
+      <configuration name="py.test in test_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_search_py - 2016.11.17 at 08h 49m 33s.xml">
+      <configuration name="py.test in test_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_search_py - 2016.11.17 at 08h 50m 31s.xml">
+      <configuration name="py.test in test_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_search_py - 2016.11.17 at 08h 51m 50s.xml">
+      <configuration name="py.test in test_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_search_py - 2016.11.17 at 08h 52m 15s.xml">
+      <configuration name="py.test in test_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_search_py - 2016.11.17 at 08h 53m 35s.xml">
       <configuration name="py.test in test_search.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -547,30 +584,57 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_all_links.py">
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="13" />
-          <folding />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/broken links.py">
+    <entry file="file://$PROJECT_DIR$/model/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_search_box.py">
+    <entry file="file://$PROJECT_DIR$/fixture/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_all_links.py" />
+    <entry file="file://$PROJECT_DIR$/broken links.py" />
+    <entry file="file://$PROJECT_DIR$/test_search_box.py" />
     <entry file="file://$PROJECT_DIR$/test/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -585,36 +649,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1089">
           <caret line="35" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#82#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_all_links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/broken links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="54" column="53" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_search_box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_all_links.py" />
+    <entry file="file://$PROJECT_DIR$/broken links.py" />
+    <entry file="file://$PROJECT_DIR$/test_search_box.py" />
     <entry file="file://$PROJECT_DIR$/test/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -629,70 +669,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1089">
           <caret line="35" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#82#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_all_links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_search_box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_all_links.py" />
+    <entry file="file://$PROJECT_DIR$/test_search_box.py" />
     <entry file="file://$USER_HOME$/Desktop/search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="31" column="22" selection-start-line="1" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#82#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/broken links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_all_links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_search_box.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="33" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/broken links.py" />
+    <entry file="file://$PROJECT_DIR$/test_all_links.py" />
+    <entry file="file://$PROJECT_DIR$/test_search_box.py" />
     <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/pytest-3.0.4-py3.5.egg/_pytest/python.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1479119531434" expanded="true" signature="42955:43148" ph="..." />
-            <marker date="1479119531434" expanded="true" signature="43295:43392" ph="..." />
-            <marker date="1479119531434" expanded="true" signature="43711:43722" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -707,31 +729,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="660">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_all_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
